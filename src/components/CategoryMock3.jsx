@@ -1,7 +1,6 @@
 import React from 'react';
-import {Link} from 'react-router'
 
-export default class CategoryMock2 extends React.Component {
+export default class CategoryMock3 extends React.Component {
 
   componentDidMount() {
     // console.log('componentDidMount About')
@@ -19,32 +18,24 @@ export default class CategoryMock2 extends React.Component {
           </div>
           <div className='row'>
              <div className="col-xs-12 col-sm-4 thumbnail">
-                <Link to="/product/8">
-                  <img src="/img/WAD01.jpg" alt="" className="sigle-img" width="380" height="373" />
-                </Link>
+                <img src="/img/WAD01.jpg" alt="" className="sigle-img" width="380" height="373" />
                 <div className="caption text-center">
                   <p>“Angel Of Prosperity”</p>
                   <p>Code : EH 1 /  WAD 1</p>
-                  <Link to="/product/8">
-                    <p>
-                      <a href="#" className="btn btn-info" role="button">PICK NOW</a>
-                    </p>
-                  </Link>
+                  <p>
+                    <a href="#" className="btn btn-info" role="button">PICK NOW</a>
+                  </p>
                 </div>
              </div>
 
              <div className="col-xs-12 col-sm-4 thumbnail">
-                <Link to="/product/9">
-                  <img src="/img/WAD02.jpg" alt="" className="single-img" width="380" height="373" />
-                </Link>
+                <img src="/img/WAD02.jpg" alt="" className="single-img" width="380" height="373" />
                 <div className="caption text-center">
                   <p>“Angel Of Passion”</p>
                   <p>Code : EH 2 /  WAD 2</p>
-                  <Link to="/product/9">
-                    <p>
-                      <a href="#" className="btn btn-info" role="button">PICK NOW</a>
-                    </p>
-                  </Link>
+                  <p>
+                    <a href="#" className="btn btn-info" role="button">PICK NOW</a>
+                  </p>
                 </div>
              </div>
 
@@ -82,17 +73,13 @@ export default class CategoryMock2 extends React.Component {
              </div>
 
              <div className="col-xs-12 col-sm-4 thumbnail">
-                <Link to="/product/10">
-                  <img src="/img/WAD06.jpg" alt="" className="single-img" width="380" height="373" />
-                </Link>
+                <img src="/img/WAD06.jpg" alt="" className="single-img" width="380" height="373" />
                 <div className="caption text-center">
                   <p>“Guardian Lion & Lioness”</p>
                   <p>Code : WAD 6</p>
-                  <Link to="/product/10">
-                    <p>
-                      <a href="#" className="btn btn-info" role="button">PICK NOW</a>
-                    </p>
-                  </Link>
+                  <p>
+                    <a href="#" className="btn btn-info" role="button">PICK NOW</a>
+                  </p>
                 </div>
              </div>
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link, push} from 'react-router'
 
 export default class ProductMock2 extends React.Component {
 
@@ -49,13 +50,15 @@ export default class ProductMock2 extends React.Component {
             </div>
             <div className="row">
               <div className="col-xs-12 col-sm-3 thumbnail">
-                <img src="/img/EA02.jpg" alt="" className="sigle-img" width="380" height="373"/>
-                <div className="caption text-center">
-                  <p>“Roses of Love”</p>
-                  <p>Code : EA 2</p>
-                  <br/>
+                <Link to="/product/1">
+                  <img src="/img/EA02.jpg" alt="" className="sigle-img" width="380" height="373"/>
+                  <div className="caption text-center">
+                    <p>“Roses of Love”</p>
+                    <p>Code : EA 2</p>
+                    <br/>
 
-                </div>
+                  </div>
+                </Link>
               </div>
 
               <div className="col-xs-12 col-sm-3 thumbnail">
@@ -68,20 +71,24 @@ export default class ProductMock2 extends React.Component {
               </div>
 
               <div className="col-xs-12 col-sm-3 thumbnail">
-                <img src="/img/WAD02.jpg" alt="" className="single-img" width="380" height="373"/>
-                <div className="caption text-center">
-                  <p>“Angel of Passion”</p>
-                  <p>Code : EH 2 /  WAD 2</p>
-                  <br/></div>
+                <Link to="/product/9">
+                  <img src="/img/WAD02.jpg" alt="" className="single-img" width="380" height="373"/>
+                  <div className="caption text-center">
+                    <p>“Angel of Passion”</p>
+                    <p>Code : EH 2 /  WAD 2</p>
+                    <br/></div>
+                </Link>
               </div>
 
               <div className="col-xs-12 col-sm-3 thumbnail">
-                <img src="/img/EH05.jpg" alt="" className="single-img" width="380" height="373"/>
-                <div className="caption text-center">
-                  <p>“Midnight Glow”</p>
-                  <p>Code : EH 5</p>
-                  <br/>
-                </div>
+                <Link to="/product/7">
+                  <img src="/img/EH05.jpg" alt="" className="single-img" width="380" height="373"/>
+                  <div className="caption text-center">
+                    <p>“Midnight Glow”</p>
+                    <p>Code : EH 5</p>
+                    <br/>
+                  </div>
+                </Link>
               </div>
             </div>
           </div>

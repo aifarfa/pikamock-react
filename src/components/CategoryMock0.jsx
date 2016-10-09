@@ -46,12 +46,15 @@ export default class CategoryMock0 extends React.Component {
              </div>
 
              <div className="col-xs-12 col-sm-4 thumbnail">
-                <img src="/img/EA03.jpg" alt="" className="single-img" width="380" height="373" />
+                <Link to="/product/2">
+                  <img src="/img/EA03.jpg" alt="" className="single-img" width="380" height="373" />
+                </Link>
                 <div className="caption text-center">
                   <p>“Ruby of Luck”</p>
                   <p>Code : EA 3</p>
-                  <p>
+                  <p><Link to="/product/2">
                     <a href="#" className="btn btn-info" role="button">PICK NOW</a>
+                    </Link>
                   </p>
                 </div>
              </div>
@@ -60,10 +63,12 @@ export default class CategoryMock0 extends React.Component {
                 <img src="/img/EA04.jpg" alt="" className="single-img" width="380" height="373" />
                 <div className="caption text-center">
                   <p>“Forever Rose”</p>
-                  <p>Code : EA 4</p>
+                <p>Code : EA 4</p>
+                  <Link to="/product/2">
                   <p>
                     <a href="#" className="btn btn-info" role="button">PICK NOW</a>
                   </p>
+                  </Link>
                 </div>
              </div>
 
