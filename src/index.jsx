@@ -12,6 +12,7 @@ import App from './components/App'
 import About from './components/About'
 import Home from './components/Home'
 import ProductMock0 from './components/ProductMock0.jsx'
+import ProductMock1 from './components/ProductMock1.jsx'
 import CategoryMock0 from './components/CategoryMock0.jsx'
 import CategoryMock1 from './components/CategoryMock1.jsx'
 import CategoryMock2 from './components/CategoryMock2.jsx'
@@ -43,6 +44,7 @@ const rootComponent = (
         <Route component={CategoryMock1} path="/category/1"/>
         <Route component={CategoryMock2} path="/category/2"/>
         <Route component={ProductMock0} path="/product/0"/>
+        <Route component={ProductMock1} path="/product/1"/>
       </Route>
     </Router>
   </Provider>

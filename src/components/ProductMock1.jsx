@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class ProductMock0 extends React.Component {
+export default class ProductMock1 extends React.Component {
 
   componentDidMount() {
     // console.log('componentDidMount About')
@@ -15,17 +15,13 @@ export default class ProductMock0 extends React.Component {
             <div className="row">
               <div className="col-xs-12">
                 <div className="col-xs-12 col-sm-4 thumbnail">
-                  <img src="img/EA01.jpg" alt="" className="single-img" width="380" height="373"/>
+                  <img src="img/categories-002.png" alt="" className="single-img" width="380" height="373"/>
                 </div>
                 <div className="col-xs-12 col-sm-8" id="product-detail">
-                  <h1 className="product-header-text">“ROSES OF LOVE”</h1>
-                  <p className="product-description">CODE : EA 1</p>
+                  <h1 className="product-header-text">BUNCH OF GLORY</h1>
+                  <p className="product-description">CODE : EH 3</p>
                   <p className="product-description">
-                    The silver necklace of roses. Generally, rose represents love and it’s design reflect the meaning of love forever. Besides, the bunch of vine delicately connect roses together as to relate love to love to eternity. This necklace is made of genuine silver.
-                  </p>
-                  <p className="product-description">
-                    This genuine silver neclace is hand made by the artist from Nan, the Northern province of Thailand.
-                  </p>
+                    The handmade silver handbag or clutch with 2 length of belt. The design is the bunch of sprig that reflects the sign of glory.</p>
                   <p className="product-description product-price">USD. 9999.99</p>
                   <p>
                     <a href="#" className="btn btn-info" role="button">PICK TO CART</a>
@@ -44,43 +40,46 @@ export default class ProductMock0 extends React.Component {
           <div id="suggested-product">
             <div className="row">
               <div className="col-xs-12">
-                <h3 id="suggested-product-header">EXPLORE & PICK</h3>
+                <h3 id="suggested-product-header">CUSTOMERS ALSO LOVE</h3>
               </div>
             </div>
             <div className="row">
               <div className="col-xs-12 col-sm-3 thumbnail">
-                <img src="img/EA03.jpg" alt="" className="sigle-img" width="380" height="373"/>
+                <img src="img/categories-001.png" alt="" className="sigle-img" width="380" height="373"/>
                 <div className="caption text-center">
-                  <p>“Ruby of Luck”</p>
-                  <p>Code : EA 3</p>
+                  <p>“Angel of Prosperity”</p>
+                  <p>Gold Niello Handbag</p>
+                  <p>USD 9999.99</p>
                   <br/>
 
                 </div>
               </div>
 
               <div className="col-xs-12 col-sm-3 thumbnail">
-                <img src="img/EA04.jpg" alt="" className="single-img" width="380" height="373"/>
+                <img src="img/categories-002.png" alt="" className="single-img" width="380" height="373"/>
                 <div className="caption text-center">
-                “Forever Rose”
                   <p>“Fortune Lover”</p>
-                  <p>Code : EA 4</p>
+                  <p>Handbag & Clutch</p>
+                  <p>USD 9999.99</p>
                   <br/>
                 </div>
               </div>
 
               <div className="col-xs-12 col-sm-3 thumbnail">
-                <img src="img/WAD02.jpg" alt="" className="single-img" width="380" height="373"/>
+                <img src="img/categories-003.png" alt="" className="single-img" width="380" height="373"/>
                 <div className="caption text-center">
-                  <p>“Angel of Passion”</p>
-                  <p>Code : EH 2 /  WAD 2</p>
+                  <p>“Angel of Passion””</p>
+                  <p>Silver Niello Handbag</p>
+                  <p>USD 9999.99</p>
                   <br/></div>
               </div>
 
               <div className="col-xs-12 col-sm-3 thumbnail">
-                <img src="img/EH05.jpg" alt="" className="single-img" width="380" height="373"/>
+                <img src="img/categories-004.png" alt="" className="single-img" width="380" height="373"/>
                 <div className="caption text-center">
                   <p>“Midnight Glow”</p>
-                  <p>Code : EH 5</p>
+                  <p>Handbag</p>
+                  <p>USD 9999.99</p>
                   <br/>
                 </div>
               </div>

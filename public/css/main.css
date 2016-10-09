@@ -2,3 +2,10 @@
 @import url("hamburger-menu.css");
 @import url("index.css");
 @import url("index-responsive.css");
+
+
+/* Overwrite Bootstrap*/
+
+.btn-info {
+  background-color: #23AEE1;
+}

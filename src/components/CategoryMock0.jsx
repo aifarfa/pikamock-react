@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {Link} from 'react-router'
 export default class CategoryMock0 extends React.Component {
 
   componentDidMount() {
@@ -18,7 +18,9 @@ export default class CategoryMock0 extends React.Component {
           </div>
           <div className="row">
              <div className="col-xs-12 col-sm-4 thumbnail">
+              <Link to="/product/0">
                 <img src="img/EA01.jpg" alt="" className="sigle-img" width="380" height="373" />
+                </Link>
                 <div className="caption text-center">
                   <p>“Roses of Love”</p>
                   <p>Code : EA 1</p>

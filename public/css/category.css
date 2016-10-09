@@ -3,6 +3,24 @@
 }
 
 .caption p {
-  color: #297abc;
+  color: #155185;
   font-size: 19px;
+}
+
+.product-header-text{
+  color: #23AEE1;
+  font-size: 45px;
+}
+
+.product-description {
+  color: #155185;
+  font-size: 18px;
+}
+
+.product-price {
+  font-weight: bold;
+}
+
+#suggested-product-header {
+  color: #155185;
 }
