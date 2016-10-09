@@ -5,6 +5,8 @@ import Hello from './Hello'
 import {onLoad} from '../modules/home'
 import shallowCompare from 'react-addons-shallow-compare'
 
+import HomeSlider from './HomeSlider.jsx'
+
 /**
  * dump component
  */
@@ -27,7 +29,31 @@ export class Home extends React.Component {
   render() {
     return (
       <div>
-        <Hello isLoading={this.props.isLoading}/>
+        <HomeSlider />
+
+        <section className="pikapok__contents" id="main">
+          <div className="row pikapok__category-grid">
+            <div className="col-xs-12 col-sm-6 category-grid">
+              <img src="img/block-1.jpg" className="img-responsive"/>
+            </div>
+            <div className="col-xs-12 col-sm-6 category-grid">
+              <img src="img/block-2.jpg" className="img-responsive"/>
+            </div>
+            <div className="col-xs-12 col-sm-6 category-grid">
+              <img src="img/block-3.jpg" className="img-responsive"/>
+            </div>
+            <div className="col-xs-12 col-sm-6 category-grid">
+              <img src="img/block-4.jpg" className="img-responsive"/>
+            </div>
+          </div>
+          <div className="container pikapoke__pickpoke">
+            <div className="row">
+              <div className="col-xs-12 pikapoke__pickpoke-content"></div>
+            </div>
+          </div>
+          <div className="row pikapoke__lifeismore"></div>
+        </section>
+        {/* <Hello isLoading={this.props.isLoading}/> */}
       </div>
     );
   }

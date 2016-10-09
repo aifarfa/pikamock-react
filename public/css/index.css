@@ -87,7 +87,7 @@ body {
 }
 
 .pikapoke__pickpoke {
-  background-image: url('../images/poke-now.jpg');
+  background-image: url('../img/poke-now.jpg');
   background-size: cover;
   height: 205px;
   margin-right: 0px;
@@ -111,7 +111,7 @@ body {
 }
 
 .pikapoke__lifeismore {
-  background-image: url('../images/before-footer.jpg');
+  background-image: url('../img/before-footer.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
   height: 260px;
