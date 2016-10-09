@@ -14,7 +14,6 @@ export default class App extends React.Component {
   render() {
     return (
       <div>
-        <h2>App here.</h2>
         <nav>
           <ul>
             <li>
