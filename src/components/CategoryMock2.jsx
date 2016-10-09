@@ -8,10 +8,10 @@ export default class CategoryMock2 extends React.Component {
 
   render() {
     return (
-      <div classNameName="container pikapok__content">
+      <div className="container pikapok__content">
 
         <div id="pikapok__carousel" className="carousel slide pikapok__carousel" data-ride="carousel">
-          <div classNameName='row'>
+          <div className='row'>
             <div className='col-xs-12'>
               <h3 className='categories-header'>WORK OF ART DECORATION</h3>
             </div>
