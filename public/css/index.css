@@ -182,3 +182,7 @@ body {
 .social-icon-twitter {
   width: 35px;
 }
+
+.thumbnail {
+  border: none !important;
+}
