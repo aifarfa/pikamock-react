@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class ProductMock7 extends React.Component {
+export default class ProductMock8 extends React.Component {
 
   componentDidMount() {
     // console.log('componentDidMount About')
@@ -15,19 +15,26 @@ export default class ProductMock7 extends React.Component {
             <div className="row">
               <div className="col-xs-12">
                 <div className="col-xs-12 col-sm-4 thumbnail">
-                  <img src="img/EH05.jpg" alt="" className="single-img" width="380" height="373"/>
+                  <img src="img/EH01.jpg" alt="" className="single-img" width="380" height="373"/>
                 </div>
                 <div className="col-xs-12 col-sm-8" id="product-detail">
-                  <h1 className="product-header-text">“MIDNIGHT GLOW”</h1>
-                  <p className="product-description">CODE : EH 5</p>
+                  <h1 className="product-header-text">“ANGEL OF PROSPERITY”</h1>
+                  <p className="product-description">CODE : EH 1 / WAD 1</p>
                   <p className="product-description">
-                    The handmade handbag or clutch bag made from the natural “Lipao” grass, Climbing ferns , String ferns , Comb fern or Curly-grass family (Lygodium , Schizaea). This kind of handbag is the classical Thai traditional handicraft that use to be seen as the appliance for the royal family and the noble family. Nowadays, local Thai artist can develop & produce to be the unique & remarkable form of handbag or clutch bag.
-                  </p><br></br>
+                    The gold niello ware handbag or clutch or decoration art piece. It’s made of silver for the shape and then use gold to make into the gold niello ware.
+                  </p>
                   <p className="product-description ">
-                    This handicraft “Lipao” handbag comes along with the  genuine silver niello ware on the top, hook, base, handle. The plain black color of “Lipao” grass represents the “Stability & Firmness”.
-                  </p><br></br>
+                    The design is about the growth of the delicate puffy flower “Phudtan”, (Hibiscus mutabilis) Dixie rosemallow, Cotton rose , Confederate rose, the propitious flower with the bunch of sprig.
+                  </p>
                   <p className="product-description ">
-                    The artist who created & weaved into bag stays in Nakonsithammarat province, the southern part of Thailand.
+                    The hook & pole is decorated with genuine brilliant diamonds and also elaborated the lines of star with genuine diamonds.
+                    Star fruit or Star apple or Carambola (Averrhoa carambola) is the auspicious fruit that Asian believe to protect the bad things or evil. Because the cross section of Star fruit appears as the same shape as star.
+                  </p>
+                  <p className="product-description ">
+                    The design is about the growth of the delicate puffy flower “Phudtan”, (Hibiscus mutabilis) Dixie rosemallow, Cotton rose , Confederate rose, the propitious flower with the bunch of sprig.
+                  </p>
+                  <p className="product-description ">
+                    This art piece of handicraft was created & made by Thai artist from Kanchanaburi province, the central part of Thailand.
                   </p>
                   <p className="product-description product-price">USD. 9999.99</p>
                   <p>
@@ -53,36 +60,36 @@ export default class ProductMock7 extends React.Component {
 
             <div className="row">
               <div className="col-xs-12 col-sm-3 thumbnail">
-                <img src="img/EH01.jpg" alt="" className="single-img" width="380" height="373"/>
+                <img src="img/WAD03.jpg" alt="" className="single-img" width="380" height="373"/>
                 <div className="caption text-center">
-                  <p>“Angel Of Prosperity”</p>
-                  <p>Code : EH 1 /  WAD 1</p>
+                  <p>“Golden Bouquet” Chandelier</p>
+                  <p>Code : WAD 3</p>
                   <br/>
                 </div>
               </div>
 
               <div className="col-xs-12 col-sm-3 thumbnail">
-              <img src="img/EH05.jpg" alt="" className="single-img" width="380" height="373"/>
+              <img src="img/WAD04.jpg" alt="" className="single-img" width="380" height="373"/>
               <div className="caption text-center">
-                <p>“Midnight Glow”</p>
-                <p>Code : EH 5</p>
+                <p>“Golden Blossom”</p>
+                <p>Code : WAD 4</p>
                 <br/>
               </div>
               </div>
 
               <div className="col-xs-12 col-sm-3 thumbnail">
-                <img src="img/EH02.jpg" alt="" className="single-img" width="380" height="373"/>
+                <img src="img/WAD07.jpg" alt="" className="single-img" width="380" height="373"/>
                 <div className="caption text-center">
-                  <p>“Angel of Passion”</p>
-                  <p>Code : EH 2 /  WAD 2</p>
+                  <p>“Glorious Deva”</p>
+                  <p>Code : WAD 7</p>
                   <br/></div>
               </div>
 
               <div className="col-xs-12 col-sm-3 thumbnail">
-                <img src="img/EH03.jpg" alt="" className="sigle-img" width="380" height="373"/>
+                <img src="img/WAD08.jpg" alt="" className="sigle-img" width="380" height="373"/>
                 <div className="caption text-center">
-                  <p>“Bunch of Glory”</p>
-                  <p>Code : EH 3</p>
+                  <p>“Little Family”</p>
+                  <p>Code : WAD 8</p>
                   <br/>
                 </div>
               </div>
