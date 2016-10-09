@@ -1,5 +1,5 @@
 {
-  "name": "react-redux-boilerplate",
+  "name": "pikamock",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aifarfa/react-redux-boilerplate.git"
+    "url": "git+https://github.com/aifarfa/pikamock-react.git"
   },
   "keywords": [
     "react",
@@ -17,11 +17,10 @@
     "webpack"
   ],
   "author": "pasit.r",
-  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aifarfa/react-redux-boilerplate/issues"
+    "url": "https://github.com/aifarfa/pikamock-react/issues"
   },
-  "homepage": "https://github.com/aifarfa/react-redux-boilerplate#readme",
+  "homepage": "https://github.com/aifarfa/pikamock-react#readme",
   "dependencies": {
     "immutable": "^3.8.1",
     "react": "^15.3.1",
