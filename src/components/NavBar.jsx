@@ -17,7 +17,7 @@ export default class NavBar extends React.Component {
           <a href="#">Contact Us</a>
           <a href="#">En</a>
           <a href="#">SIGN IN</a>
-          <a href="#">CART</a>
+          <a href="#">MY CART</a>
         </div>
         {/* will delete later */}
         <Link to="/product/0">p0</Link>
@@ -37,14 +37,16 @@ export default class NavBar extends React.Component {
           <div className="pikapok__slogan hidden-xs col-sm-4">
             The way we PICK, We PICK the BEST !!!
           </div>
-          <div className="pikapok__logo col-xs-7 col-sm-4">
-            <img src="img/logo.png" className="img-responsive"/>
-          </div>
+          <Link to="/">
+            <div className="pikapok__logo col-xs-7 col-sm-4">
+                <img src="img/logo.png" className="img-responsive"/>
+            </div>
+          </Link>
           <div className="col-xs-3 col-sm-4 pikapok__menus">
             <a href="#" className="with-divider" target="_blank">CONTACT US</a>
             <a href="#" className="with-divider hidden-xs visible-sm visible-md visible-lg" target="_blank">EN</a>
             <a href="#" className="with-divider" target="_blank">SIGN IN</a>
-            <a href="#" target="_blank">CART</a>
+            <a href="#" className="with-divider" target="_blank"> MY CART</a>
           </div>
 
           <div className="row hidden-xs pikapok__categories">

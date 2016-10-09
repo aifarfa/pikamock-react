@@ -6,6 +6,15 @@
 
 /* Overwrite Bootstrap*/
 
+a:hover {
+  color:red;
+  text-decoration: none;
+}
+
 .btn-info {
   background-color: #23AEE1;
+}
+
+.img-responsive {
+  display: inline;
 }
