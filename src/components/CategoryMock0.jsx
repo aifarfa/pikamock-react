@@ -20,24 +20,28 @@ export default class CategoryMock0 extends React.Component {
              <div className="col-xs-12 col-sm-4 thumbnail">
               <Link to="/product/0">
                 <img src="/img/EA01.jpg" alt="" className="sigle-img" width="380" height="373" />
-                </Link>
+              </Link>
                 <div className="caption text-center">
                   <p>“Roses of Love”</p>
                   <p>Code : EA 1</p>
-                  <p>
-                    <a href="#" className="btn btn-info" role="button">PICK NOW</a>
-                  </p>
+                  <Link to="/product/0">
+                    <p>
+                      <a href="#" className="btn btn-info" role="button">PICK NOW</a>
+                    </p>
+                  </Link>
                 </div>
              </div>
 
              <div className="col-xs-12 col-sm-4 thumbnail">
-                <img src="/img/EA02.jpg" alt="" className="single-img" width="380" height="373" />
+                <Link to="/product/1">
+                  <img src="/img/EA02.jpg" alt="" className="single-img" width="380" height="373" />
+                </Link>
                 <div className="caption text-center">
                   <p>“Roses of Love”</p>
                   <p>Code : EA 2</p>
-                  <p>
-                    <a href="#" className="btn btn-info" role="button">PICK NOW</a>
-                  </p>
+                  <Link to="/product/1">
+                  <p><a href="#" className="btn btn-info" role="button">PICK NOW</a></p>
+                  </Link>
                 </div>
              </div>
 

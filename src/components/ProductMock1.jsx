@@ -15,7 +15,7 @@ export default class ProductMock1 extends React.Component {
             <div className="row">
               <div className="col-xs-12">
                 <div className="col-xs-12 col-sm-4 thumbnail">
-                  <img src="/img/categories-002.png" alt="" className="single-img" width="380" height="373"/>
+                  <img src="/img/EA02.jpg" alt="" className="single-img" width="380" height="373"/>
                 </div>
                 <div className="col-xs-12 col-sm-8" id="product-detail">
                   <h1 className="product-header-text">“ROSES OF LOVE”</h1>
