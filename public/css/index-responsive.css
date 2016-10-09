@@ -1,0 +1,147 @@
+@media (min-width: 768px) {
+
+  .pikapok__menus {
+    font-size: 16px;
+    padding-top: 25px;
+  }
+
+  .pikapok__slogan {
+    display: inline-block;
+    color: #1b75bc;
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 15px;
+  }
+
+  .pikapok__logo {
+    margin-top: 15px;
+  }
+  .pikapok__menus {
+    display: block;
+  }
+  .pikapok__menus > a {
+    font-size: 16px;
+    display: inline-block !important;
+  }
+
+  .pikapok__red-dot {
+    background-color: #ec3538;
+    border-radius: 25px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+  }
+
+  .with-divider {
+    border-right: 1px solid #1b75bc;
+    padding: 1px 5px;
+    height: 22px;
+  }
+
+  .pikapok__category {
+    display: inline-block;
+  }
+
+  .category-grid {
+    overflow: auto;
+    height: initial;
+  }
+
+  .category-grid:first-child > img,
+  .category-grid:nth-child(2) > img {
+    position: initial;
+    margin-top: 0px;
+  }
+
+  .pikapok__categories {
+    color: #00aeef;
+  }
+
+  .pikapok__category-all {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    border-bottom: 9px solid #23ade4;
+  }
+
+
+  .pikapoke__pickpoke {
+    min-height: 478px;
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .pickpok__text-tittle {
+    font-weight: bolder;
+    color: #1b75bc;
+    padding-top: 95px;
+  }
+
+  .pickpok__text-tittle {
+    font-size: 62px;
+    font-weight: bold;
+  }
+
+  .pickpok__text-1,
+  .pickpok__text-2 {
+    font-size: 32px;
+    text-align:center;
+  }
+
+  .pickpoke__big-txt {
+    font-size: 42px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+  }
+
+  .pickpoke__btn > a {
+    width: 175px;
+    height: 55px;
+    font-size: 26px;
+    margin-left: 40px;
+  }
+
+  .pikapoke__lifeismore {
+    min-height: 756px;
+  }
+
+}
+
+@media (max-width: 767px){
+  .footer-column-header {
+    margin-bottom: 5px;
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  .footer-payment-icon,
+  .footer-service,
+  .footer-about,
+  .footer-social {
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  .footer-payment-icon {
+    width: 100%;
+  }
+
+  .footer-payment-icon img {
+    display: inline-block;
+    width: 36px;
+  }
+
+  .footer-payment img:first-child {
+    display: inline-block;
+    width: 36px;
+  }
+
+  .footer-social {
+    padding-bottom: 35px;
+  }
+
+  .pikapok__footer {
+    padding: 0;
+  }
+}
+}

@@ -10,52 +10,74 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="assets/slick/slick.min.js"></script>
+	<script src="js/main.js"></script>
+
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="assets/slick/slick.css" />
+	<link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css" />
 </head>
 
 <body>
 	<!-- Nav and Header -->
-	<div class="container-fluid pikapok__header">
-		<div class="row">
-			<div class="pikapok__header-nav">
-				<div class="col-md-4 pikapok__slogan">The way we PICK, We PICK the BEST</div>
-				<div class="col-md-4 pikapok__logo">
-					<img src="img/logo.png">
+	<header class="pikapok__header container-fluid">
+		<!-- Hamburger Menu -->
+		<div id="mySidenav" class="sidenav visible-xs">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="#">TEXTILE TREASURE</a>
+			<a href="#">ELEGANT HANDBAG</a>
+			<a href="#">EXQUISITE ACCESSORY</a>
+			<a href="#">WORK OF ART DECORATION</a>
+			<div class="pikapok-menu__divider"></div>
+			<a href="#">Contact Us</a>
+			<a href="#">En</a>
+			<a href="#">SIGN IN</a>
+			<a href="#">CART</a>
+		</div>
+		<div class="row pikapok__navbar-header">
+			<span class="visible-xs hidden-sm hidden-md hidden-lg pikapok__hamburger-menu col-xs-2" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+			<div class="pikapok__slogan hidden-xs col-sm-4">
+				The way we PICK, We PICK the BEST !!!
+			</div>
+			<div class="pikapok__logo col-xs-7 col-sm-4">
+				<img src="images/logo.png" class="img-responsive">
+			</div>
+			<div class="col-xs-3 col-sm-4 pikapok__menus">
+				<a href="#" class="with-divider" target="_blank">CONTACT US</a>
+				<a href="#" class="with-divider hidden-xs visible-sm visible-md visible-lg" target="_blank">EN</a>
+				<a href="#" class="with-divider" target="_blank">SIGN IN</a>
+				<a href="#" target="_blank">CART</a>
+			</div>
+
+			<div class="row hidden-xs pikapok__categories">
+				<div class="col-sm-12 text-center pikapok__category-all">
+					<div class="pikapok__category category-1">TEXTILE TREASURE</div>
+					<div class="pikapok__red-dot"></div>
+					<div class="pikapok__category category-2">ELEGANT HANDBAG</div>
+					<div class="pikapok__red-dot"></div>
+					<div class="pikapok__category category-3">EXQUISITE ACCESSORY</div>
+					<div class="pikapok__red-dot"></div>
+					<div class="pikapok__category category-4">WORK OF ART DECORATION</div>
 				</div>
-				<div class="col-md-4 pikapok__menus">
-					<a href="#">
-						<div class="pikapok__menu pikapok__menu-1">Contact Us |</div>
-					</a>
-					<a href="#">
-						<div class="pikapok__menu pikapok__menu-2">En |</div>
-					</a>
-					<a href="#">
-						<div class="pikapok__menu pikapok__menu-3">SIGN IN |</div>
-					</a>
-					<a href="#">
-						<div class="pikapok__menu pikapok__menu-4">MY CART</div>
-					</a>
+			</div>
+			<div class="row">
+				<div class="pikapok__slider col-xs-12">
+					<img src="images/slide-1.jpg">
+					<img src="images/slide-2.jpg">
+					<img src="images/slide-3.jpg">
+					<img src="images/slide-4.jpg">
+					<img src="images/slide-5.jpg">
+					<img src="images/slide-6.jpg">
+					<img src="images/slide-7.jpg">
 				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="pikapok__content-nav">
-				<div class="pikapok__nav-menu">TEXTILE TREASURE</div>
-				<div class="pikapok__red-circle-divider"></div>
+	</header>
 
-				<div class="pikapok__nav-menu">ELEGANT HANDBAG</div>
-				<div class="pikapok__red-circle-divider"></div>
-
-				<div class="pikapok__nav-menu">EXQUISITE ACCESSORY</div>
-				<div class="pikapok__red-circle-divider"></div>
-
-				<div class="pikapok__nav-menu">WORK OF ART DECORATION</div>
-			</div>
-		</div>
-	</div>
 	<!-- Content goes here -->
 	<div id="app"></div>
+
 	<!-- Footer here -->
 	<footer class="row pikapok__footer">
 		<div class="col-sm-3 col-xs-12 footer-payment">
