@@ -23,6 +23,9 @@ export default class App extends React.Component {
               <Link to="/category/0">category-0</Link>
             </li>
             <li>
+              <Link to="/category/1">category-1</Link>
+            </li>
+            <li>
               <Link to="/product/0">product-0</Link>
             </li>
           </ul>
