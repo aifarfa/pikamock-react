@@ -11,6 +11,7 @@ import {reducers} from './modules'
 import App from './components/App'
 import About from './components/About'
 import Home from './components/Home'
+import OrderForm from './components/OrderForm'
 import ProductMock0 from './components/ProductMock0.jsx'
 import ProductMock1 from './components/ProductMock1.jsx'
 import ProductMock2 from './components/ProductMock2.jsx'
@@ -50,6 +51,7 @@ const rootComponent = (
     <Router history={history}>
       <Route component={App} path="/">
         <IndexRoute component={Home}/>
+        <Route component={OrderForm} path="/order/add/:productId/:itemName"/>
         <Route component={CategoryMock0} path="/category/0"/>
         <Route component={CategoryMock1} path="/category/1"/>
         <Route component={CategoryMock2} path="/category/2"/>
