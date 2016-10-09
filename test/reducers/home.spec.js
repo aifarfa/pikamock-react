@@ -1,4 +1,4 @@
-import { expect } from 'chai'
+import {expect} from 'chai'
 import nock from 'nock'
 import * as td from 'testdouble'
 import * as home from '../../src/modules/home'
@@ -15,15 +15,14 @@ describe('reducer: home', () => {
     let state;
 
     before(() => {
-      const action = { type: null }
+      const action = {
+        type: null
+      }
       state = reducer(undefined, action);
     })
 
     it('is not loading', () => {
       expect(state.get('isLoading')).to.eq(false, 'isLoading')
-    })
-    it('has no permission', () => {
-      expect(state.get('permission')).to.eq(false, 'permission')
     })
   })
 
@@ -31,7 +30,7 @@ describe('reducer: home', () => {
     let state;
 
     before(() => {
-      const action = home.loading();
+      const action = {type: home.HOME_LOADING};
       state = reducer(undefined, action);
     });
 
@@ -44,15 +43,14 @@ describe('reducer: home', () => {
     let state;
 
     before(() => {
-      const action = home.getPermissionSuccess({ canAccess: true })
+      const action = {
+        tyep: home.HOME_LOAD_SUCCESS
+      }
       state = reducer(undefined, action);
     })
 
     it('is not loading', () => {
       expect(state.get('isLoading')).to.eq(false);
-    })
-    it('set permission', () => {
-      expect(state.get('permission')).to.eq(true);
     })
   })
 
@@ -60,27 +58,26 @@ describe('reducer: home', () => {
     let state;
 
     before(() => {
-      const action = home.getPermissionFailed(new Error('what!?'));
+      const action = {
+        type: home.HOME_LOAD_FAILED
+      }
       state = reducer(undefined, action);
     })
 
     it('is not loading', () => {
       expect(state.get('isLoading')).to.eq(false);
     })
-    it('set permission: false', () => {
-      expect(state.get('permission')).to.eq(false);
-    })
   })
 
-  describe('fetch permission async', () => {
-    const dispatch = td.function(); // spy
-    const response = { canAccess: false }
+  xdescribe('fetch permission async', () => {
+    const dispatch = td.function (); // spy
+    const response = {
+      canAccess: false
+    }
 
     before('onLoad', () => {
       const onLoad = home.onLoad(dispatch)
-      nock('http://test.json')
-        .get('/')
-        .reply(200, response);
+      nock('http://test.json').get('/').reply(200, response);
       onLoad();
     })
 
@@ -96,7 +93,7 @@ describe('reducer: home', () => {
       const exp = td.explain(dispatch)
       const firstCall = exp.calls[0]
       const secondCall = exp.calls[1]
-        // console.log(exp.description);
+      // console.log(exp.description);
       expect(exp.callCount).to.eq(2)
       expect(firstCall.args[0].type).to.eql(home.PERMISSION_LOADING)
       expect(secondCall.args[0].type).to.eql(home.PERMISSION_LOAD_SUCCESS)

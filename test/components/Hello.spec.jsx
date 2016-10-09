@@ -11,20 +11,20 @@ describe('component: Hello', () => {
     expect(elements.length).to.eq(1);
   })
 
-  it('render Hello when props is true', () => {
-    const fixture = <Hello hasPermission={true}/>
+  it('render loader when isLoading: true', () => {
+    const fixture = <Hello isLoading={true}/>
     const component = TestUtils.renderIntoDocument(fixture);
     const msg = TestUtils.findRenderedDOMComponentWithClass(component, 'msg');
     // console.log(msg.textContent)
-    expect(msg.textContent).to.eq('Hello, user');
+    expect(msg.textContent).to.eq('processing..');
   })
 
-  it('render No permission when props is false', () => {
-    const fixture = <Hello hasPermission={false}/>
+  it('render Hello when isLoading: false', () => {
+    const fixture = <Hello isLoading={false}/>
     const component = TestUtils.renderIntoDocument(fixture)
     const msg = TestUtils.findRenderedDOMComponentWithClass(component, 'msg');
     // console.log(msg.textContent);
-    expect(msg.textContent).to.eq('No permission');
+    expect(msg.textContent).to.eq('Hello, user');
   })
 
   it('do nothing onClick', () => {

@@ -7,9 +7,9 @@ export default class Hello extends React.Component {
   }
 
   render() {
-    const message = this.props.hasPermission
+    const message = !this.props.isLoading
       ? <p>Hello, user</p>
-      : <p>No permission</p>
+      : <p>processing..</p>
 
     return (
       <div>
