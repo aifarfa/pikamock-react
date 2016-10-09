@@ -11,7 +11,8 @@ export default class NavBar extends React.Component {
           <a href="#" className="closebtn" onClick={this.closeNav}>&times;</a>
           <Link to="/category/0">EXQUISITE ACCESSORY</Link>
           <Link to="/category/1">ELEGANT HANDBAG</Link>
-          <Link to="/">WORK OF ART DECORATION</Link>
+          <Link to="/">TEXTILE TREASURE</Link>
+          <Link to="/category/2">WORK OF ART DECORATION</Link>
           <div className="pikapok-menu__divider"></div>
           <a href="#">Contact Us</a>
           <a href="#">En</a>
@@ -54,6 +55,10 @@ export default class NavBar extends React.Component {
               <div className="pikapok__red-dot"></div>
               <div className="pikapok__category category-2">
                 <Link to="/category/1">ELEGANT HANDBAG</Link>
+              </div>
+              <div className="pikapok__red-dot"></div>
+              <div className="pikapok__category category-4">
+                <Link to="/">TEXTILE TREASURE</Link>
               </div>
               <div className="pikapok__red-dot"></div>
               <div className="pikapok__category category-4">
