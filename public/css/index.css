@@ -51,6 +51,14 @@ body {
   padding-left: 0;
 }
 
+.pikapok__category {
+  padding-right: 8px
+}
+
+.pikapok__red-dot {
+    margin-right: 8px;
+}
+
 .slick-dots {
   top: 235px;
 }
