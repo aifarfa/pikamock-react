@@ -3,13 +3,128 @@
 
 <head>
 	<meta charset="utf-8" />
-	<title></title>
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pikapok</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="assets/slick/slick.min.js"></script>
+	<script src="js/main.js"></script>
+
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="assets/slick/slick.css" />
+	<link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css" />
 </head>
 
 <body>
-	<h2>Index here.</h2>
+	<!-- Nav and Header -->
+	<header class="pikapok__header container-fluid">
+		<!-- Hamburger Menu -->
+		<div id="mySidenav" class="sidenav visible-xs">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="#">EXQUISITE ACCESSORY</a>
+			<a href="#">ELEGANT HANDBAG</a>
+			<a href="#">TEXTILE TREASURE</a>
+			<a href="#">WORK OF ART DECORATION</a>
+			<div class="pikapok-menu__divider"></div>
+			<a href="#">Contact Us</a>
+			<a href="#">En</a>
+			<a href="#">SIGN IN</a>
+			<a href="#">CART</a>
+		</div>
+		<div class="row pikapok__navbar-header">
+			<span class="visible-xs hidden-sm hidden-md hidden-lg pikapok__hamburger-menu col-xs-2" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+			<div class="pikapok__slogan hidden-xs col-sm-4">
+				The way we PICK, We PICK the BEST !!!
+			</div>
+			<div class="pikapok__logo col-xs-7 col-sm-4">
+				<img src="img/logo.png" class="img-responsive">
+			</div>
+			<div class="col-xs-3 col-sm-4 pikapok__menus">
+				<a href="#" class="with-divider" target="_blank">CONTACT US</a>
+				<a href="#" class="with-divider hidden-xs visible-sm visible-md visible-lg" target="_blank">EN</a>
+				<a href="#" class="with-divider" target="_blank">SIGN IN</a>
+				<a href="#" target="_blank">CART</a>
+			</div>
+
+			<div class="row hidden-xs pikapok__categories">
+				<div class="col-sm-12 text-center pikapok__category-all">
+					<div class="pikapok__category category-3">EXQUISITE ACCESSORY</div>
+					<div class="pikapok__red-dot"></div>
+					<div class="pikapok__category category-2">ELEGANT HANDBAG</div>
+					<div class="pikapok__red-dot"></div>
+					<div class="pikapok__category category-1">TEXTILE TREASURE</div>
+					<div class="pikapok__red-dot"></div>
+					<div class="pikapok__category category-4">WORK OF ART DECORATION</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="pikapok__slider col-xs-12">
+					<img src="img/slide-1.jpg">
+					<img src="img/slide-2.jpg">
+					<img src="img/slide-3.jpg">
+					<img src="img/slide-4.jpg">
+					<img src="img/slide-5.jpg">
+					<img src="img/slide-6.jpg">
+					<img src="img/slide-7.jpg">
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Content goes here -->
 	<div id="app"></div>
-	<script src="public/bundle.js"></script>
+
+	<!-- Footer here -->
+	<footer class="row pikapok__footer">
+		<div class="col-sm-3 col-xs-12 footer-payment">
+			<p class="footer-column-header page__bold-text">Payment methods</p>
+			<div class="footer-payment-icon">
+				<img src="img/icon-paypal.png">
+				<img src="img/icon-visa.png">
+				<img src="img/icon-mastercard.png">
+				<img src="img/icon-american-express.png">
+				<img src="img/icon-jcb.png">
+			</div>
+		</div>
+
+		<div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-push-1 footer-service">
+			<div class="footer-column-header page__bold-text">Services</div>
+			<!-- <div class="footer-column-menu page__regular-text">Order and Status</div> -->
+			<!-- <div class="footer-column-menu page__regular-text">Shipping and Delivery</div> -->
+			<div class="footer-column-menu page__regular-text">Returns Policy</div>
+			<div class="footer-column-menu">Newsletter</div>
+			<!-- <div class="footer-column-menu">FAQ</div> -->
+		</div>
+
+		<div class="col-sm-2 col-xs-10 col-xs-offset-1 footer-about">
+			<div class="footer-column-header page__bold-text">About</div>
+			<div class="footer-column-menu page__regular-text">About Us</div>
+			<div class="footer-column-menu page__regular-text">Gallery</div>
+			<div class="footer-column-menu page__regular-text">
+				<a href="https://pikapok.wufoo.com/forms/m1kn5sv715hm67k/" target="_blank">Contact Us</a>
+			</div>
+		</div>
+
+		<div class="col-xs-10 col-xs-offset-1 col-sm-3 footer-social">
+			<img class="footer-social-logo" src="img/logo.png">
+
+			<div class="footer-social-icons">
+
+				<a href="https://www.facebook.com/OfficialPikAPok/">
+					<img class="social-icon-facebook" src="img/footer-icon-fb.png">
+				</a>
+				<a href="https://www.instagram.com/pikapok_thailand/">
+					<img class="social-icon-twitter" src="img/footer-icon-ig.png">
+				</a>
+			</div>
+		</div>
+	</footer>
+
+	<script src="bundle.js"></script>
 </body>
 
 </html>

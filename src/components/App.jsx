@@ -14,14 +14,16 @@ export default class App extends React.Component {
   render() {
     return (
       <div>
-        <h2>App here.</h2>
         <nav>
           <ul>
             <li>
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/category/0">category-0</Link>
+            </li>
+            <li>
+              <Link to="/product/0">product-0</Link>
             </li>
           </ul>
         </nav>
