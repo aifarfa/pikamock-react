@@ -15,7 +15,7 @@ export default class ProductMock10 extends React.Component {
             <div className="row">
               <div className="col-xs-12">
                 <div className="col-xs-12 col-sm-4 thumbnail">
-                  <img src="img/WAD06.jpg" alt="" className="single-img" width="380" height="373"/>
+                  <img src="/img/WAD06.jpg" alt="" className="single-img" width="380" height="373"/>
                 </div>
                 <div className="col-xs-12 col-sm-8" id="product-detail">
                   <h1 className="product-header-text">“Guardian Lion & Lioness”</h1>
@@ -49,7 +49,7 @@ export default class ProductMock10 extends React.Component {
 
             <div className="row">
               <div className="col-xs-12 col-sm-3 thumbnail">
-                <img src="img/WAD03.jpg" alt="" className="single-img" width="380" height="373"/>
+                <img src="/img/WAD03.jpg" alt="" className="single-img" width="380" height="373"/>
                 <div className="caption text-center">
                   <p>“Golden Bouquet” Chandelier</p>
                   <p>Code : WAD 3</p>
@@ -58,7 +58,7 @@ export default class ProductMock10 extends React.Component {
               </div>
 
               <div className="col-xs-12 col-sm-3 thumbnail">
-              <img src="img/WAD04.jpg" alt="" className="single-img" width="380" height="373"/>
+              <img src="/img/WAD04.jpg" alt="" className="single-img" width="380" height="373"/>
               <div className="caption text-center">
                 <p>“Golden Blossom”</p>
                 <p>Code : WAD 4</p>
@@ -67,7 +67,7 @@ export default class ProductMock10 extends React.Component {
               </div>
 
               <div className="col-xs-12 col-sm-3 thumbnail">
-                <img src="img/WAD07.jpg" alt="" className="single-img" width="380" height="373"/>
+                <img src="/img/WAD07.jpg" alt="" className="single-img" width="380" height="373"/>
                 <div className="caption text-center">
                   <p>“Glorious Deva”</p>
                   <p>Code : WAD 7</p>
@@ -75,7 +75,7 @@ export default class ProductMock10 extends React.Component {
               </div>
 
               <div className="col-xs-12 col-sm-3 thumbnail">
-                <img src="img/WAD08.jpg" alt="" className="sigle-img" width="380" height="373"/>
+                <img src="/img/WAD08.jpg" alt="" className="sigle-img" width="380" height="373"/>
                 <div className="caption text-center">
                   <p>“Little Family”</p>
                   <p>Code : WAD 8</p>
