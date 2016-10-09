@@ -16,6 +16,7 @@ import ProductMock1 from './components/ProductMock1.jsx'
 import ProductMock2 from './components/ProductMock2.jsx'
 import ProductMock3 from './components/ProductMock3.jsx'
 import ProductMock4 from './components/ProductMock4.jsx'
+import ProductMock5 from './components/ProductMock5.jsx'
 
 import CategoryMock0 from './components/CategoryMock0.jsx'
 import CategoryMock1 from './components/CategoryMock1.jsx'
@@ -52,6 +53,7 @@ const rootComponent = (
         <Route component={ProductMock2} path="/product/2"/>
         <Route component={ProductMock3} path="/product/3"/>
         <Route component={ProductMock4} path="/product/4"/>
+        <Route component={ProductMock5} path="/product/5"/>
       </Route>
     </Router>
   </Provider>
