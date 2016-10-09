@@ -5,6 +5,8 @@ import Hello from './Hello'
 import {onLoad} from '../modules/home'
 import shallowCompare from 'react-addons-shallow-compare'
 
+import HomeSlider from './HomeSlider.jsx'
+
 /**
  * dump component
  */
@@ -27,6 +29,7 @@ export class Home extends React.Component {
   render() {
     return (
       <div>
+        <HomeSlider />
         <Hello isLoading={this.props.isLoading}/>
       </div>
     );
