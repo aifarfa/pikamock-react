@@ -3,7 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {createStore, applyMiddleware, compose} from 'redux';
 import {Provider} from 'react-redux';
-import {Router, Route, IndexRoute, hashHistory} from 'react-router';
+import {Router, Route, IndexRoute, browserHistory} from 'react-router';
 import {syncHistoryWithStore, routerMiddleware} from 'react-router-redux';
 import thunkMiddleware from 'redux-thunk';
 
@@ -36,10 +36,10 @@ const devToolsExtension = window.devToolsExtension
   ? window.devToolsExtension()
   : f => f;
 
-const middleware = applyMiddleware(thunkMiddleware, routerMiddleware(hashHistory));
+const middleware = applyMiddleware(thunkMiddleware, routerMiddleware(browserHistory));
 const store = createStore(reducers, initialState, compose(middleware, devToolsExtension));
 
-const history = syncHistoryWithStore(hashHistory, store, {
+const history = syncHistoryWithStore(browserHistory, store, {
   selectLocationState(state) {
     return state.get('routing').toJS()
   }

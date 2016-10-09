@@ -15,7 +15,7 @@ export default class ProductMock6 extends React.Component {
             <div className="row">
               <div className="col-xs-12">
                 <div className="col-xs-12 col-sm-4 thumbnail">
-                  <img src="img/EH04.jpg" alt="" className="single-img" width="380" height="373"/>
+                  <img src="/img/EH04.jpg" alt="" className="single-img" width="380" height="373"/>
                 </div>
                 <div className="col-xs-12 col-sm-8" id="product-detail">
                   <h1 className="product-header-text">“FORTUNE LOVER”</h1>
@@ -53,7 +53,7 @@ export default class ProductMock6 extends React.Component {
 
             <div className="row">
               <div className="col-xs-12 col-sm-3 thumbnail">
-                <img src="img/EH01.jpg" alt="" className="single-img" width="380" height="373"/>
+                <img src="/img/EH01.jpg" alt="" className="single-img" width="380" height="373"/>
                 <div className="caption text-center">
                   <p>“Angel Of Prosperity”</p>
                   <p>Code : EH 1 /  WAD 1</p>
@@ -62,7 +62,7 @@ export default class ProductMock6 extends React.Component {
               </div>
 
               <div className="col-xs-12 col-sm-3 thumbnail">
-              <img src="img/EH05.jpg" alt="" className="single-img" width="380" height="373"/>
+              <img src="/img/EH05.jpg" alt="" className="single-img" width="380" height="373"/>
               <div className="caption text-center">
                 <p>“Midnight Glow”</p>
                 <p>Code : EH 5</p>
@@ -71,7 +71,7 @@ export default class ProductMock6 extends React.Component {
               </div>
 
               <div className="col-xs-12 col-sm-3 thumbnail">
-                <img src="img/EH02.jpg" alt="" className="single-img" width="380" height="373"/>
+                <img src="/img/EH02.jpg" alt="" className="single-img" width="380" height="373"/>
                 <div className="caption text-center">
                   <p>“Angel of Passion”</p>
                   <p>Code : EH 2 /  WAD 2</p>
@@ -79,7 +79,7 @@ export default class ProductMock6 extends React.Component {
               </div>
 
               <div className="col-xs-12 col-sm-3 thumbnail">
-                <img src="img/EH03.jpg" alt="" className="sigle-img" width="380" height="373"/>
+                <img src="/img/EH03.jpg" alt="" className="sigle-img" width="380" height="373"/>
                 <div className="caption text-center">
                   <p>“Bunch of Glory”</p>
                   <p>Code : EH 3</p>

@@ -18,7 +18,7 @@ export default class CategoryMock1 extends React.Component {
           </div>
           <div className="row">
              <div className="col-xs-12 col-sm-4 thumbnail">
-                <img src="img/EH01.jpg" alt="" className="sigle-img" width="380" height="373" />
+                <img src="/img/EH01.jpg" alt="" className="sigle-img" width="380" height="373" />
                 <div className="caption text-center">
                   <p>“Angel Of Prosperity”</p>
                   <p>Code : EH 1 /  WAD 1</p>
@@ -29,7 +29,7 @@ export default class CategoryMock1 extends React.Component {
              </div>
 
              <div className="col-xs-12 col-sm-4 thumbnail">
-                <img src="img/EH02.jpg" alt="" className="single-img" width="380" height="373" />
+                <img src="/img/EH02.jpg" alt="" className="single-img" width="380" height="373" />
                 <div className="caption text-center">
                   <p>“Angel Of Passion”</p>
                   <p>Code : EH 2 /  WAD 2</p>
@@ -40,7 +40,7 @@ export default class CategoryMock1 extends React.Component {
              </div>
 
              <div className="col-xs-12 col-sm-4 thumbnail">
-                <img src="img/EH03.jpg" alt="" className="single-img" width="380" height="373" />
+                <img src="/img/EH03.jpg" alt="" className="single-img" width="380" height="373" />
                 <div className="caption text-center">
                   <p>“Bunch Of Glory”</p>
                   <p>Code : EH 3</p>
@@ -51,7 +51,7 @@ export default class CategoryMock1 extends React.Component {
              </div>
 
              <div className="col-xs-12 col-sm-4 thumbnail">
-                <img src="img/EH04.jpg" alt="" className="single-img" width="380" height="373" />
+                <img src="/img/EH04.jpg" alt="" className="single-img" width="380" height="373" />
                 <div className="caption text-center">
                   <p>“Fortune Lover”</p>
                   <p>Code : EH 4</p>
@@ -62,7 +62,7 @@ export default class CategoryMock1 extends React.Component {
              </div>
 
              <div className="col-xs-12 col-sm-4 thumbnail">
-                <img src="img/EH05.jpg" alt="" className="single-img" width="380" height="373" />
+                <img src="/img/EH05.jpg" alt="" className="single-img" width="380" height="373" />
                 <div className="caption text-center">
                   <p>“Forever Rose”</p>
                   <p>Code : EH 5</p>
