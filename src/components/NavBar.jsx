@@ -8,10 +8,10 @@ export default class NavBar extends React.Component {
     return (
       <header className="pikapok__header container-fluid">
         <div id="mySidenav" className="sidenav visible-xs">
-          <a href="#" className="closebtn" onClick={this.closeNav}>&times;</a>
+          <a className="closebtn" onClick={this.closeNav}>&times;</a>
           <Link to="/category/0">EXQUISITE ACCESSORY</Link>
           <Link to="/category/1">ELEGANT HANDBAG</Link>
-          <Link to="/">WORK OF ART DECORATION</Link>
+          <Link to="/category/2">WORK OF ART DECORATION</Link>
           <div className="pikapok-menu__divider"></div>
           <a href="#">Contact Us</a>
           <a href="#">En</a>
@@ -44,7 +44,7 @@ export default class NavBar extends React.Component {
               </div>
               <div className="pikapok__red-dot"></div>
               <div className="pikapok__category category-4">
-                <Link to="/">WORK OF ART DECORATION</Link>
+                <Link to="/category/2">WORK OF ART DECORATION</Link>
               </div>
             </div>
           </div>
