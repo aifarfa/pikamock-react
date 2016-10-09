@@ -37,7 +37,10 @@ module.exports = config = {
   },
 
   plugins: [
-    new webpack.optimize.UglifyJsPlugin()
+    new webpack.DefinePlugin({
+        'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'development')
+    }),
+    new webpack.optimize.UglifyJsPlugin(),
     // new webpack.HotModuleReplacementPlugin(),
     // new ExtractTextPlugin('style.css', {
     //   allChunks: true,
