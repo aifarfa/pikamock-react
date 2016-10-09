@@ -29,6 +29,7 @@ export default class NavBar extends React.Component {
         <Link to="/product/7">p7</Link>
         <Link to="/product/8">p8</Link>
         <Link to="/product/9">p9</Link>
+        <Link to="/product/10">p10</Link>
 
         <div className="row pikapok__navbar-header">
           <span className="visible-xs hidden-sm hidden-md hidden-lg pikapok__hamburger-menu col-xs-2" onClick={this.openNav}>&#9776;</span>
@@ -56,7 +57,7 @@ export default class NavBar extends React.Component {
               </div>
               <div className="pikapok__red-dot"></div>
               <div className="pikapok__category category-4">
-                <Link to="/">WORK OF ART DECORATION</Link>
+                <Link to="/category/2">WORK OF ART DECORATION</Link>
               </div>
             </div>
           </div>
