@@ -61,8 +61,7 @@ export default class ProductMock0 extends React.Component {
               <div className="col-xs-12 col-sm-3 thumbnail">
                 <img src="img/EA04.jpg" alt="" className="single-img" width="380" height="373"/>
                 <div className="caption text-center">
-                “Forever Rose”
-                  <p>“Fortune Lover”</p>
+                  <p>“Forever Rose”</p>
                   <p>Code : EA 4</p>
                   <br/>
                 </div>
