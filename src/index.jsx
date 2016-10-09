@@ -11,6 +11,7 @@ import {reducers} from './modules'
 import App from './components/App'
 import About from './components/About'
 import Home from './components/Home'
+import ProductMock0 from './components/ProductMock0.jsx'
 
 // require('./style.scss');
 // require('../node_modules/bootstrap/dist/css/bootstrap.css');
@@ -36,6 +37,7 @@ const rootComponent = (
       <Route component={App} path="/">
         <IndexRoute component={Home}/>
         <Route component={About} path="/about"/>
+        <Route component={ProductMock0} path="/product/0"/>
       </Route>
     </Router>
   </Provider>

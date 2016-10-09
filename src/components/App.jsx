@@ -22,6 +22,9 @@ export default class App extends React.Component {
             <li>
               <Link to="/about">About</Link>
             </li>
+            <li>
+              <Link to="/product/0">product-0</Link>
+            </li>
           </ul>
         </nav>
         <div>
