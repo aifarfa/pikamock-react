@@ -7,16 +7,6 @@ export default class NavBar extends React.Component {
     //  style="font-size:30px;cursor:pointer"
     return (
       <header className="pikapok__header container-fluid">
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/product/0">product-0</Link>
-            </li>
-          </ul>
-        </nav>
         <div id="mySidenav" className="sidenav visible-xs">
           <a href="#" className="closebtn" onClick={this.closeNav}>&times;</a>
           <Link to="/category/0">EXQUISITE ACCESSORY</Link>
