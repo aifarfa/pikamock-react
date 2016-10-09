@@ -16,6 +16,7 @@ export default class App extends React.Component {
     return (
       <div>
         <NavBar />
+
         <div>
           {this.props.children}
         </div>
