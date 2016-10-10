@@ -21,7 +21,6 @@ export default class NavBar extends React.Component {
         </div>
         {/* will delete later */}
 
-
         <div className="row pikapok__navbar-header">
           <span className="visible-xs hidden-sm hidden-md hidden-lg pikapok__hamburger-menu col-xs-2" onClick={this.openNav}>&#9776;</span>
           <div className="pikapok__slogan hidden-xs col-sm-4">
