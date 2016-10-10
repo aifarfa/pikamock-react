@@ -29,6 +29,8 @@ import CategoryMock1 from './components/CategoryMock1.jsx'
 import CategoryMock2 from './components/CategoryMock2.jsx'
 
 import Privacy from './components/Privacy.jsx'
+import Contactus from './components/Contactus.jsx'
+
 
 // require('./style.scss');
 // require('../node_modules/bootstrap/dist/css/bootstrap.css');
@@ -69,6 +71,7 @@ const rootComponent = (
         <Route component={ProductMock9} path="/product/9"/>
         <Route component={ProductMock10} path="/product/10"/>
         <Route component={Privacy} path="/privacy"/>
+        <Route component={Contactus} path="/contactus"/>
       </Route>
     </Router>
   </Provider>

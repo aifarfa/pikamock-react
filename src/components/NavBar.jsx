@@ -34,6 +34,7 @@ export default class NavBar extends React.Component {
 
 
         <Link to="/privacy">privacy</Link>
+        <Link to="/Contactus">contactus</Link>
 
         <div className="row pikapok__navbar-header">
           <span className="visible-xs hidden-sm hidden-md hidden-lg pikapok__hamburger-menu col-xs-2" onClick={this.openNav}>&#9776;</span>
@@ -46,7 +47,9 @@ export default class NavBar extends React.Component {
             </div>
           </Link>
           <div className="col-xs-3 col-sm-4 pikapok__menus">
-            <a href="#" className="with-divider" target="_blank">CONTACT US</a>
+            <Link to="/Contactus">
+              <a href="#" className="with-divider" target="_blank">CONTACT US</a>
+            </Link>
             <a href="#" className="with-divider hidden-xs visible-sm visible-md visible-lg" target="_blank">EN</a>
             <a href="#" className="with-divider" target="_blank">SIGN IN</a>
             <a href="#" className="with-divider" target="_blank"> MY CART</a>

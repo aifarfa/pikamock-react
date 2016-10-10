@@ -22,3 +22,10 @@ a:hover {
 .policy {
   color: rgb(27, 117, 188);
 }
+#header_static {
+  color:#23AEE1;
+}
+
+#subheader_static {
+  color:red;
+}
