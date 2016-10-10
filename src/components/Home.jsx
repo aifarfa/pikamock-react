@@ -30,6 +30,7 @@ export class Home extends React.Component {
   render() {
     return (
       <div>
+
         <HomeSlider />
 
         <section className="pikapok__contents" id="main">
@@ -49,16 +50,20 @@ export class Home extends React.Component {
             </div>
             <Link to="/category/2">
               <div className="col-xs-12 col-sm-6 category-grid">
-                <img src="img/block-4.jpg" className="img-responsive"/>
+                <img src="img/block-4.jpg" className="img-responsive" id="last-home-cat" />
               </div>
             </Link>
           </div>
-          <div className="container pikapoke__pickpoke">
-            <div className="row">
-              <div className="col-xs-12 pikapoke__pickpoke-content"></div>
+          <div className="">
+            <div className="">
+              <Link to="/gallery">
+                <img className="img-responsive" src="../img/poke-now.jpg" />
+              </Link>
             </div>
           </div>
-          <div className="row pikapoke__lifeismore"></div>
+          <div className="">
+            <img className="img-responsive" src="../img/before-footer.jpg" />
+          </div>
         </section>
         {/* <Hello isLoading={this.props.isLoading}/> */}
       </div>

@@ -50,6 +50,7 @@ body {
 .pikapok__slider {
   padding-right: 0;
   padding-left: 0;
+  max-width: 1200px;
 }
 
 .pikapok__category {
@@ -94,13 +95,12 @@ body {
   position: relative;
   margin-top: -44%;
 }
+.category-grid:last-child > {
+  margin-top: 1px;
+}
 
-.pikapoke__pickpoke {
-  background-image: url('../img/poke-now.jpg');
-  background-size: cover;
-  height: 205px;
-  margin-right: 0px;
-  margin-left: 0px;
+#last-home-cat {
+  margin-top: 1px;
 }
 
 .pickpoke__btn {
