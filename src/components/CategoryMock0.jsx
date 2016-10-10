@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {Link} from 'react-router'
 export default class CategoryMock0 extends React.Component {
 
   componentDidMount() {
@@ -18,46 +18,57 @@ export default class CategoryMock0 extends React.Component {
           </div>
           <div className="row">
              <div className="col-xs-12 col-sm-4 thumbnail">
-                <img src="img/EA01.jpg" alt="" className="sigle-img" width="380" height="373" />
+              <Link to="/product/0">
+                <img src="/img/EA01.jpg" alt="" className="sigle-img" width="380" height="373" />
+              </Link>
                 <div className="caption text-center">
                   <p>“Roses of Love”</p>
                   <p>Code : EA 1</p>
-                  <p>
-                    <a href="#" className="btn btn-info" role="button">PICK NOW</a>
-                  </p>
+                  <Link to="/product/0">
+                    <p>
+                      <a href="#" className="btn btn-info" role="button">PICK NOW</a>
+                    </p>
+                  </Link>
                 </div>
              </div>
 
              <div className="col-xs-12 col-sm-4 thumbnail">
-                <img src="img/EA02.jpg" alt="" className="single-img" width="380" height="373" />
+                <Link to="/product/1">
+                  <img src="/img/EA02.jpg" alt="" className="single-img" width="380" height="373" />
+                </Link>
                 <div className="caption text-center">
                   <p>“Roses of Love”</p>
                   <p>Code : EA 2</p>
-                  <p>
-                    <a href="#" className="btn btn-info" role="button">PICK NOW</a>
-                  </p>
+                  <Link to="/product/1">
+                  <p><a href="#" className="btn btn-info" role="button">PICK NOW</a></p>
+                  </Link>
                 </div>
              </div>
 
              <div className="col-xs-12 col-sm-4 thumbnail">
-                <img src="img/EA03.jpg" alt="" className="single-img" width="380" height="373" />
+                <Link to="/product/2">
+                  <img src="/img/EA03.jpg" alt="" className="single-img" width="380" height="373" />
+                </Link>
                 <div className="caption text-center">
                   <p>“Ruby of Luck”</p>
                   <p>Code : EA 3</p>
-                  <p>
+                  <p><Link to="/product/2">
                     <a href="#" className="btn btn-info" role="button">PICK NOW</a>
+                    </Link>
                   </p>
                 </div>
              </div>
 
              <div className="col-xs-12 col-sm-4 thumbnail">
-                <img src="img/EA04.jpg" alt="" className="single-img" width="380" height="373" />
+                <img src="/img/EA04.jpg" alt="" className="single-img" width="380" height="373" />
                 <div className="caption text-center">
                   <p>“Forever Rose”</p>
-                  <p>Code : EA 4</p>
+                <p>Code : EA 4</p>
+                  <Link to="/product/2">
                   <p>
                     <a href="#" className="btn btn-info" role="button">PICK NOW</a>
                   </p>
+                  </Link>
                 </div>
              </div>
 

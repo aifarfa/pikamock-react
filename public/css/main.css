@@ -2,3 +2,37 @@
 @import url("hamburger-menu.css");
 @import url("index.css");
 @import url("index-responsive.css");
+
+
+/* Overwrite Bootstrap*/
+
+a:hover {
+  color:red;
+  text-decoration: none;
+}
+
+.btn-info {
+  background-color: #23AEE1;
+}
+
+.img-responsive {
+  display: inline;
+}
+
+.policy {
+  color: rgb(27, 117, 188);
+}
+
+.pikapok__hamburger-menu {
+  font-size: 30px;
+  color: #155185;
+  padding-left: 20px;
+}
+
+#header_static {
+  color:#23AEE1;
+}
+
+#subheader_static {
+  color:red;
+}

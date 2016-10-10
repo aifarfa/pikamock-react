@@ -1,7 +1,8 @@
 import React from 'react';
 import {Link, push} from 'react-router'
 
-export default class ProductMock0 extends React.Component {
+
+export default class ProductMock1 extends React.Component {
 
   componentDidMount() {
     // console.log('componentDidMount About')
@@ -16,20 +17,20 @@ export default class ProductMock0 extends React.Component {
             <div className="row">
               <div className="col-xs-12">
                 <div className="col-xs-12 col-sm-4 thumbnail">
-                  <img src="/img/EA01.jpg" alt="" className="single-img" width="380" height="373"/>
+                  <img src="/img/EA02.jpg" alt="" className="single-img" width="380" height="373"/>
                 </div>
                 <div className="col-xs-12 col-sm-8" id="product-detail">
                   <h1 className="product-header-text">“ROSES OF LOVE”</h1>
-                  <p className="product-description">CODE : EA 1</p>
+                  <p className="product-description">CODE : EA 2</p>
                   <p className="product-description">
-                    The silver necklace of roses. Generally, rose represents love and it’s design reflect the meaning of love forever. Besides, the bunch of vine delicately connect roses together as to relate love to love to eternity. This necklace is made of genuine silver.
+                    The silver bracelet of roses. Generally, rose represents love and it’s design reflect the meaning of love forever. Besides, the bunch of vine delicately connect roses together as to relate love to love to eternity. This necklace is made of genuine silver.
                   </p>
-                  <p className="product-description">
-                    This genuine silver neclace is hand made by the artist from Nan, the Northern province of Thailand.
+                  <p className="product-description ">
+                    This genuine silver bracelet is hand made by the artist from Nan, the Northern province of Thailand.
                   </p>
                   <p className="product-description product-price">USD. 9999.99</p>
                   <p>
-                    <Link to="/order/add/0/ROSES OF LOVE" className="btn btn-info">PICK TO CART</Link>
+                  <Link to="/order/add/1/ROSES OF LOVE" className="btn btn-info">PICK TO CART</Link>
                   </p>
                   <p className="product-description">Shares:
                     <i className="fa fa-facebook-official" aria-hidden="true"></i>
@@ -92,6 +93,7 @@ export default class ProductMock0 extends React.Component {
               </div>
             </div>
           </div>
+
         </div>
       </div>
     ); // return

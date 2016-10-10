@@ -21,6 +21,7 @@ body {
   height: 55px;
   padding-left: 0;
   padding-right: 0;
+  text-align: center;
 }
 
 .pikapok__logo > img {
@@ -49,6 +50,14 @@ body {
 .pikapok__slider {
   padding-right: 0;
   padding-left: 0;
+}
+
+.pikapok__category {
+  padding-right: 8px
+}
+
+.pikapok__red-dot {
+    margin-right: 8px;
 }
 
 .slick-dots {
@@ -182,7 +191,9 @@ body {
 .social-icon-twitter {
   width: 35px;
 }
-
+.DHL {
+  text-align: center;
+}
 .thumbnail {
   border: none !important;
 }
