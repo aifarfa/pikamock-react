@@ -20,21 +20,7 @@ export default class NavBar extends React.Component {
           <a href="#">MY CART</a>
         </div>
         {/* will delete later */}
-        {/* <Link to="/product/0">p0</Link>
-        <Link to="/product/1">p1</Link>
-        <Link to="/product/2">p2</Link>
-        <Link to="/product/3">p3</Link>
-        <Link to="/product/4">p4</Link>
-        <Link to="/product/5">p5</Link>
-        <Link to="/product/6">p6</Link>
-        <Link to="/product/7">p7</Link>
-        <Link to="/product/8">p8</Link>
-        <Link to="/product/9">p9</Link>
-        <Link to="/product/10">p10</Link>
 
-
-        <Link to="/privacy">privacy</Link>
-        <Link to="/Contactus">contactus</Link> */}
 
         <div className="row pikapok__navbar-header">
           <span className="visible-xs hidden-sm hidden-md hidden-lg pikapok__hamburger-menu col-xs-2" onClick={this.openNav}>&#9776;</span>
