@@ -3,6 +3,9 @@
 @import url("index.css");
 @import url("index-responsive.css");
 
+.product-price {
+  display: none;
+}
 
 /* Overwrite Bootstrap*/
 
