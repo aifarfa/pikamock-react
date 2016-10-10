@@ -33,7 +33,7 @@ export default class NavBar extends React.Component {
         <Link to="/product/10">p10</Link>
 
 
-        <Link to="/category/3">cat3</Link>
+        <Link to="/privacy">privacy</Link>
 
         <div className="row pikapok__navbar-header">
           <span className="visible-xs hidden-sm hidden-md hidden-lg pikapok__hamburger-menu col-xs-2" onClick={this.openNav}>&#9776;</span>

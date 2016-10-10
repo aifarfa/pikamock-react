@@ -18,3 +18,7 @@ a:hover {
 .img-responsive {
   display: inline;
 }
+
+.policy {
+  color: rgb(27, 117, 188);
+}
