@@ -32,7 +32,7 @@ export default class ProductMock5 extends React.Component {
                   </p>
                   <p className="product-description product-price">USD. 9999.99</p>
                   <p>
-                    <a href="#" className="btn btn-info" role="button">PICK TO CART</a>
+                    <Link to="/order/add/5/BUNCH OF GLORY" className="btn btn-info">PICK TO CART</Link>
                   </p>
                   <p className="product-description">Shares:
                     <i className="fa fa-facebook-official" aria-hidden="true"></i>

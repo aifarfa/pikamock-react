@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link, push} from 'react-router'
 
 export default class ProductMock10 extends React.Component {
 
@@ -27,7 +28,7 @@ export default class ProductMock10 extends React.Component {
                     This high porcelain of Guardian Lion & Lioness was created & designed & molded in two shades of color, dark tan & light earthtone. This handmade porcelain was made by the local artist from Sukhothai province, the northern part of Thailand.                  </p>
                   <p className="product-description product-price">USD. 9999.99</p>
                   <p>
-                    <a href="#" className="btn btn-info" role="button">PICK TO CART</a>
+                    <Link to="/order/add/10/Guardian Lion & Lioness" className="btn btn-info">PICK TO CART</Link>
                   </p>
                   <p className="product-description">Shares:
                     <i className="fa fa-facebook-official" aria-hidden="true"></i>

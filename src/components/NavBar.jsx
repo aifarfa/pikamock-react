@@ -42,7 +42,7 @@ export default class NavBar extends React.Component {
             The way we PICK, We PICK the BEST !!!
           </div>
           <Link to="/">
-            <div className="pikapok__logo col-xs-7 col-sm-4">
+            <div className="pikapok__logo col-xs-8 col-sm-3">
                 <img src="img/logo.png" className="img-responsive"/>
             </div>
           </Link>
