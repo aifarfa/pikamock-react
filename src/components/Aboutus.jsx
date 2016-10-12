@@ -9,7 +9,7 @@ export default class Privacy extends React.Component {
   render() {
     return (
       <div className="container pikapok__content">
-        <div ClassName="row">
+        <div className="row">
           <h3 id="subheader_static"></h3>
           <div className="row">
             <img className="img-responsive" src="../img/aboutus.jpg" />

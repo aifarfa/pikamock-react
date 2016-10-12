@@ -8,6 +8,10 @@ import * as TestUtils from 'react-addons-test-utils'
 
 describe('component: Home', () => {
 
+  before(() => {
+    global.$ = td.function()
+  })
+
   it('calls props onLoad when component did mount', () => {
     // const onLoad = sinon.spy()
     const onLoad = td.function()

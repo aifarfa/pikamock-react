@@ -1,6 +1,7 @@
 import React, {PropTypes} from 'react'
 import {Link} from 'react-router'
 import NavBar from './NavBar'
+import Footer from './Footer'
 
 export default class App extends React.Component {
 
@@ -15,11 +16,11 @@ export default class App extends React.Component {
   render() {
     return (
       <div>
-        <NavBar />
-
+        <NavBar/>
         <div>
           {this.props.children}
         </div>
+        <Footer/>
       </div>
     );
   }

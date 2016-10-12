@@ -28,16 +28,14 @@ export default class NavBar extends React.Component {
           </div>
           <Link to="/">
             <div className="pikapok__logo col-xs-8 col-sm-3">
-                <img src="img/logo.png" className="img-responsive"/>
+              <img src="img/logo.png" className="img-responsive"/>
             </div>
           </Link>
           <div className="col-xs-3 col-sm-4 pikapok__menus">
-            <Link to="/Contactus">
-              <a href="#" className="with-divider" target="_blank">CONTACT US</a>
-            </Link>
+            <Link to="/contactus" className="with-divider">CONTACT US</Link>
             <a href="#" className="with-divider hidden-xs visible-sm visible-md visible-lg" target="_blank">EN</a>
             <a href="#" className="with-divider" target="_blank">SIGN IN</a>
-            <a href="#" className="with-divider" target="_blank"> MY CART</a>
+            <a href="#" className="with-divider" target="_blank">MY CART</a>
           </div>
 
           <div className="row hidden-xs pikapok__categories">

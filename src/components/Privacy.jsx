@@ -9,8 +9,8 @@ export default class Privacy extends React.Component {
   render() {
     return (
       <div className="container pikapok__content policy">
-        <div ClassName="row">
-          <h1 ClassName="header_static">SERVICES</h1>
+        <div className="row">
+          <h1 className="header_static">SERVICES</h1>
           <h3 id="subheader_static">Policy :</h3>
             <p>
             1. Transaction Parties
