@@ -32,8 +32,7 @@ export default class NavBar extends React.Component {
             </div>
           </Link>
           <div className="col-xs-3 col-sm-4 pikapok__menus">
-            <Link to="/contactus">CONTACT US</Link>
-            <a href="#" className="with-divider" target="_blank">CONTACT US</a>
+            <Link to="/contactus" className="with-divider">CONTACT US</Link>
             <a href="#" className="with-divider hidden-xs visible-sm visible-md visible-lg" target="_blank">EN</a>
             <a href="#" className="with-divider" target="_blank">SIGN IN</a>
             <a href="#" className="with-divider" target="_blank">MY CART</a>
