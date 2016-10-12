@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router'
 
 export default class Footer extends React.Component {
 
@@ -25,13 +26,13 @@ export default class Footer extends React.Component {
         <div className="col-sm-2 col-xs-10 col-xs-offset-1 footer-about">
           <div className="footer-column-header page__bold-text">About</div>
           <div className="footer-column-menu page__regular-text">
-            <a href="http://pikapok.com/Aboutus" target="_blank">About Us</a>
+            <Link to="/aboutus">About Us</Link>
           </div>
-          <a href="http://pikapok.com/gallery">
-            <div className="footer-column-menu page__regular-text">Gallery</div>
-          </a>
           <div className="footer-column-menu page__regular-text">
-            <a href="http://pikapok.com/Contactus" target="_blank">Contact Us</a>
+            <Link to="/gallery">Gallery</Link>
+          </div>
+          <div className="footer-column-menu page__regular-text">
+            <Link to="/contactus">Contact Us</Link>
           </div>
         </div>
 
