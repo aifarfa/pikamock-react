@@ -16,7 +16,7 @@ module.exports = config = {
       test: /\.jsx?$/,
       exclude: /node_modules/,
       include: APP_DIR,
-      loader: 'react-hot!babel'
+      loader: 'babel-loader'
     }, {
       test: /\.css$/,
       loader: 'style-loader!css-loader?importLoaders=1'
@@ -37,11 +37,10 @@ module.exports = config = {
   },
 
   plugins: [
-    new webpack.DefinePlugin({
-        'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'development')
-    }),
     new webpack.optimize.UglifyJsPlugin(),
-    // new webpack.HotModuleReplacementPlugin(),
+    new webpack.DefinePlugin({
+      'process.env.NODE_ENV': JSON.stringify('production')
+    })
     // new ExtractTextPlugin('style.css', {
     //   allChunks: true,
     //   disable: true
